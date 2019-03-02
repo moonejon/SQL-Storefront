@@ -106,6 +106,8 @@ function startStore() {
                                                 );
                                             }
                                         );
+                                    } else {
+                                        console.log("We do not have enough stock to fulfill your request.");
                                     }
                                 }
                             );
