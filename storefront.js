@@ -29,7 +29,6 @@ function startStore() {
                         return process.kill(process.pid);
                     }), 5000);
                 } else {
-                    console.log(response);
                     inquirer
                         .prompt([
                             {
