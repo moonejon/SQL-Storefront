@@ -2,7 +2,7 @@ USE bamazon;
 
 INSERT INTO products(product_name, department_name, price, stock_quantity)
 VALUES ("Audio Technica M50x", "Technology", 80.00, 15), 
-("Palomino Blackwing", "Art", 2.00, 12), 
+("Palomino Blackwing", "Art", 2.00, 12),
 ("AirPods", "Technology", 120.00, 40), 
 ("Cough Drops", "Health", 3.00, 25),
 ("Deodorant", "Grooming", 2.50, 30),

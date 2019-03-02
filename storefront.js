@@ -23,9 +23,13 @@ function startStore() {
                 }
             ])
             .then(function(response) {
-                if (response == false) {
+                if (response.confirmStart == false) {
                     console.log("Okay... bye!!");
+                    setTimeout((function () {
+                        return process.kill(process.pid);
+                    }), 5000);
                 } else {
+                    console.log(response);
                     inquirer
                         .prompt([
                             {
